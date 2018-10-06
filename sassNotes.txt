@@ -1,0 +1,11 @@
+<h1>in the Terminal</h1>
+<p>Use this to compile(o is output to folder or directory):  node-sass -o css css/main.scss</p>
+<p>this way watches for changes and does it automatically</p>
+<p>node-sass -o css css -w</p>
+
+<p>Learn Sass in this Free Crash Course - Give your CSS Superpowers!</p>
+<p>Installing and using node-sass</p>
+
+
+to compile from a sass foldee to a css folder
+  node-sass my-sass-folder/ -o my-css-folder/
