@@ -1,25 +1,4 @@
-.center-photo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 250px;
-  height: 250px;
-  margin-top: -125px;
-  border-radius: 50%; }
-
-.hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: url("../images/248797.jpeg");
-  /* Set a specific height */
-  height: 300px;
-  z-index: -4;
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative; }
-
-body, img, html {
+body, html, img {
   margin: 0;
   padding: 0; }
 
@@ -61,3 +40,15 @@ body {
 .topnav a.active {
   background-color: #2241cc;
   color: white; }
+
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("../images/248797.jpeg");
+  /* Set a specific height */
+  height: 300px;
+  z-index: -4;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }

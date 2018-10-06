@@ -102,6 +102,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "sassf2f": "node-sass -w sass/ -o css/"
     
   },
   "author": "Alex",
